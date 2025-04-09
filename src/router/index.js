@@ -4,6 +4,7 @@ import RegisterView from '@/views/RegisterView.vue'
 import DashboardView from '@/views/DashboardView.vue'
 import SearchView from '../views/SearchView.vue'
 import Favorites from '../views/Favoritos.vue'
+import NotFound from '@/views/NotFoundView.vue'
 
 
 const routes = [
@@ -38,6 +39,11 @@ const routes = [
     name: 'Favorites',
     component: Favorites,
     meta: { requiresAuth: true }
+},
+{
+  path: '/:pathMatch(.*)*',
+  name: 'NotFound',
+  component: NotFound
 }
 
    

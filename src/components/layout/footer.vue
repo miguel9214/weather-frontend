@@ -10,14 +10,8 @@
 
         <!-- Enlaces -->
         <div class="d-flex justify-content-center justify-content-md-end gap-3 flex-wrap">
-          <a href="#" class="text-muted text-decoration-none">
+          <a href="https://github.com/miguel9214" class="text-muted text-decoration-none">
             <i class="bi bi-github"></i> GitHub
-          </a>
-          <a href="#" class="text-muted text-decoration-none">
-            <i class="bi bi-envelope"></i> Contacto
-          </a>
-          <a href="#" class="text-muted text-decoration-none">
-            <i class="bi bi-shield-lock"></i> Privacidad
           </a>
         </div>
       </div>
